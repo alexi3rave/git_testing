@@ -7,7 +7,7 @@ public class SimpleTest {
 
     @Test
     void secondTest() {
-
+        Assertions.assertTrue(2>1);
         Assertions.assertTrue(3>2);
     }
 
